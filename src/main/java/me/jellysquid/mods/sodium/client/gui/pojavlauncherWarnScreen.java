@@ -28,7 +28,7 @@ public class pojavlauncherWarnScreen extends Screen {
     private MultilineText lines = MultilineText.EMPTY;
 
     public pojavlauncherWarnScreen(Screen prevScreen) {
-        super(new LiteralText("Reese's Sodium Options Suggestion"));
+        super(new LiteralText("BianXiao Edit Sodium Warning"));
         this.prevScreen = prevScreen;
     }
 

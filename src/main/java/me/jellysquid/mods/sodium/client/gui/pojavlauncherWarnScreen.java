@@ -17,13 +17,6 @@ import net.minecraft.client.gui.widget.ButtonWidget;
 import net.minecraft.client.gui.widget.CheckboxWidget;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
-import net.minecraft.client.gui.screen.Screen;
-import net.minecraft.client.gui.widget.ButtonWidget;
-import net.minecraft.client.gui.widget.CheckboxWidget;
-import net.minecraft.text.LiteralText;
-import net.minecraft.text.MutableText;
-import net.minecraft.text.Text;
-import net.minecraft.util.Formatting;
 
 public class pojavlauncherWarnScreen extends Screen {
 
@@ -48,8 +41,8 @@ public class pojavlauncherWarnScreen extends Screen {
         this.addDrawableChild(new ButtonWidget(this.width / 2 - 155 + 160, 130 + i, 150, 20, new LiteralText("Modrinth"), buttonWidget -> Util.getOperatingSystem().open("https://modrinth.com/mod/reeses-sodium-options")));
         this.addDrawableChild(new ButtonWidget(this.width / 2 - 155, 100 + i, 150, 20, ScreenTexts.PROCEED, buttonWidget -> {
             if (this.checkbox.isChecked()) {
-                SodiumExtraClientMod.options().notificationSettings.hideRSORecommendation = true;
-                SodiumExtraClientMod.options().writeChanges();
+                SodiumClientMod.options().notificationSettings.hideRSORecommendation = true;
+                SodiumClientMod.options().writeChanges();
             }
             this.client.setScreen(this.prevScreen);
         }));

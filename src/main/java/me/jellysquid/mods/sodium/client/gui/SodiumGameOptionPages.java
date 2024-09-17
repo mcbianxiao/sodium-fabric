@@ -326,7 +326,7 @@ public class SodiumGameOptionPages {
                         .setName(Text.translatable("sodium.options.use_persistent_mapping.name"))
                         .setTooltip(Text.translatable("sodium.options.use_persistent_mapping.tooltip"))
                         .setControl(TickBoxControl::new)
-                        .setImpact(OptionImpact.MEDIUM)
+                        
                         .setEnabled(MappedStagingBuffer.isSupported(RenderDevice.INSTANCE))
                         .setBinding((opts, value) -> opts.advanced.useAdvancedStagingBuffers = value, opts -> opts.advanced.useAdvancedStagingBuffers)
                         .setFlags(OptionFlag.REQUIRES_RENDERER_RELOAD)

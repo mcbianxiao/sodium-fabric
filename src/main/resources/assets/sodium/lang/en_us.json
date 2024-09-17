@@ -56,10 +56,16 @@
   "sodium.options.buttons.donate": "Buy us a coffee!",
   "sodium.console.game_restart": "The game must be restarted to apply one or more video settings!",
   "sodium.console.broken_nvidia_driver": "Your NVIDIA graphics drivers are out of date!\n  * This will cause severe performance issues and crashes when Sodium is installed.\n  * Please update your graphics drivers to the latest version (version 536.23 or newer.)",
-  "sodium.console.pojav_launcher": "PojavLauncher is not supported when using Sodium.\n  * You are very likely to run into extreme performance issues, graphical bugs, and crashes.\n  * You will be on your own if you decide to continue -- we will not help you with any bugs or crashes!",
+  "sodium.console.pojav_launcher": "PojavLauncher is not supported by the original Sodium version.\n * You are likely to experience extreme performance issues, graphical errors, and crashes.\n * Send feedback to BianXiao for questions about this modified version of Sodium\n\nYou can permanently turn off this warning in the \"Video Settings...\"",
   "sodium.console.core_shaders_error": "The following resource packs are incompatible with Sodium:",
   "sodium.console.core_shaders_warn": "The following resource packs may be incompatible with Sodium:",
   "sodium.console.core_shaders_info": "Check the game log for detailed information.",
   "sodium.console.config_not_loaded": "The configuration file for Sodium has been corrupted, or is currently unreadable. Some options have been temporarily reset to their defaults. Please open the Video Settings screen to resolve this problem.",
   "sodium.console.config_file_was_reset": "The config file has been reset to known-good defaults."
+
+  "sodium.console.config_file_was_reset": "The config file has been reset to known-good defaults.",
+
+  "sodium.options.pages.pojav_launcher": "PojavLauncher",
+  "sodium.options.pojav_launcher": "No longer warn PojavLauncher",
+  "sodium.options.pojav_launcher.tooltip": "If enabled, Sodium will no longer warn you that you are running Sodium with PojavLauncher\n(Need to restart the game)"
 }

@@ -129,7 +129,7 @@ fun createVersionString(): String {
         builder.append(Constants.MOD_VERSION)
     } else {
         builder.append(Constants.MOD_VERSION.substringBefore('-'))
-        builder.append("-snapshot")
+        builder.append("-snapshot-byBianXiaoforHoly")
     }
 
     builder.append("+mc").append(Constants.MINECRAFT_VERSION)

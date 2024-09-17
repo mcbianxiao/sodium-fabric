@@ -13,16 +13,16 @@ import net.minecraft.text.TranslatableText;
 import net.minecraft.util.Formatting;
 import net.minecraft.util.Util;
 
-public class SuggestRSOScreen extends Screen {
+public class pojavlauncherWarnScreen extends Screen {
 
-    private static final Text HEADER = new TranslatableText("sodium-extra.suggestRSO.header").formatted(Formatting.BOLD);
-    private static final Text MESSAGE = new TranslatableText("sodium-extra.suggestRSO.message");
+    private static final Text HEADER = new TranslatableText("sodium.console.pojav_launcher").formatted(Formatting.BOLD);
+    private static final Text MESSAGE = new TranslatableText("sodium.console.pojav_launcher");
     private static final Text CHECK_MESSAGE = new TranslatableText("multiplayerWarning.check");
     private final Screen prevScreen;
     private CheckboxWidget checkbox;
     private MultilineText lines = MultilineText.EMPTY;
 
-    public SuggestRSOScreen(Screen prevScreen) {
+    public pojavlauncherWarnScreen(Screen prevScreen) {
         super(new LiteralText("Reese's Sodium Options Suggestion"));
         this.prevScreen = prevScreen;
     }

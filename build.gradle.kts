@@ -129,10 +129,11 @@ fun createVersionString(): String {
         builder.append(Constants.MOD_VERSION)
     } else {
         builder.append(Constants.MOD_VERSION.substringBefore('-'))
-        builder.append("-dev-byBianXiaoforHoly")
+        builder.append("-dev")
     }
 
     builder.append("+mc").append(Constants.MINECRAFT_VERSION)
+    builder.append("-EditForPojavlauncher-byBianXiao")
 
     if (!isReleaseBuild) {
         if (buildId != null) {

@@ -1,7 +1,7 @@
 {
   "sodium.console.pojav_launcher": "PojavLauncher 不被 Sodium 原版所支持。\n * 你很可能会遇到极端的性能问题、图形错误和崩溃。\n * 关于此魔改版 Sodium 的相关问题，请反馈给 BianXiao\n\n你可以在\"视频设置...\"内永久关闭此警告",
 
-  "sodium.options.pages.pojav_launcher": "PojavLauncher",
+  "sodium.options.pages.pojav_launcher": "BianXiao修改版Sodium警告",
   "sodium.options.pojav_launcher": "不再警告 PojavLauncher",
-  "sodium.options.pojav_launcher.tooltip": "如果启用，Sodium 将不再警告你正在使用 PojavLauncher 运行 Sodium\n(需要重启游戏)"
+  "sodium.options.pojav_launcher.tooltip": "如果启用，Sodium 将不再警告你正在使用 PojavLauncher 运行 由BianXiao修改的Sodium\n(需要重启游戏)"
 }
